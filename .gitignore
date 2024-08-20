@@ -1,0 +1,3 @@
+tavily_env/
+tavily_results_*.txt
+.env
