@@ -21,3 +21,4 @@ docker run -e TAVILY_API_KEY=your_api_key tavily-ip-checker
 text
 
 This approach allows for flexibility in how you manage the API key, whether through a .env file for local development or environment variables for production deployment.
+# tavily-ip-checker
