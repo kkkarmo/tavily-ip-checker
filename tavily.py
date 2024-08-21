@@ -99,8 +99,10 @@ def process_ips():
             out_file.write(f"IP: {ip} (Malicious: {malicious}, Suspicious: {suspicious})\n\n")
 
             queries = [
-                f"Why is IP {ip} flagged as malicious or suspicious?",
-                f"What can be found about IP {ip} in terms of cybersecurity aspects?"
+                # f"Why is IP {ip} flagged as malicious or suspicious?",
+                # f"What can be found about IP {ip} in terms of cybersecurity aspects?"
+                f"What are the reasons for IP {ip} being flagged as suspicious, and what cybersecurity activities or behaviors are associated with this IP {IP}?"
+            
             ]
 
             for query in queries:
